@@ -19,6 +19,8 @@
 		6AF66294196C6093003A3E16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF6627C196C6093003A3E16 /* UIKit.framework */; };
 		6AF6629C196C6093003A3E16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AF6629A196C6093003A3E16 /* InfoPlist.strings */; };
 		6AF6629E196C6093003A3E16 /* paper_gestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6629D196C6093003A3E16 /* paper_gestureTests.m */; };
+		6AF662AA196C60A6003A3E16 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF662A8196C60A6003A3E16 /* MainViewController.m */; };
+		6AF662AB196C60A6003A3E16 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AF662A9196C60A6003A3E16 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		6AF66299196C6093003A3E16 /* paper-gestureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "paper-gestureTests-Info.plist"; sourceTree = "<group>"; };
 		6AF6629B196C6093003A3E16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6AF6629D196C6093003A3E16 /* paper_gestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = paper_gestureTests.m; sourceTree = "<group>"; };
+		6AF662A7196C60A6003A3E16 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6AF662A8196C60A6003A3E16 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6AF662A9196C60A6003A3E16 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		6AF6626C196C6092003A3E16 = {
 			isa = PBXGroup;
 			children = (
+				6AF662A7196C60A6003A3E16 /* MainViewController.h */,
+				6AF662A8196C60A6003A3E16 /* MainViewController.m */,
+				6AF662A9196C60A6003A3E16 /* MainViewController.xib */,
 				6AF6627E196C6093003A3E16 /* paper-gesture */,
 				6AF66297196C6093003A3E16 /* paper-gestureTests */,
 				6AF66277196C6093003A3E16 /* Frameworks */,
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF66283196C6093003A3E16 /* InfoPlist.strings in Resources */,
+				6AF662AB196C60A6003A3E16 /* MainViewController.xib in Resources */,
 				6AF6628B196C6093003A3E16 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF66289196C6093003A3E16 /* AppDelegate.m in Sources */,
+				6AF662AA196C60A6003A3E16 /* MainViewController.m in Sources */,
 				6AF66285196C6093003A3E16 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
